@@ -30,7 +30,7 @@ pipeline {
         }
         stage("Deploy"){
             steps{
-                sh "sudo mv /var/lib/jenkins/workspace/Assignment-Pipeline/target/devops-integration.jar opt/tomcat/webapps"
+                sh "sudo mv /var/lib/jenkins/workspace/Assignment -Pipeline/target/devops-integration.jar /tomcat/webapps"
             }
         }
     }
